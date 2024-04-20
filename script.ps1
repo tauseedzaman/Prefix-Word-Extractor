@@ -1,7 +1,9 @@
 #===========================================================================
 #  ?                                ABOUT
-#  @author         :  tauseed zaman
-#  @description    :  this script will extract words from a text file that start with the specified prefixes and save them to a CSV file.
+#  @author         :  tauseedzaman
+#  @email          :  tauseedzaman@pm.me    
+#  @createdOn      :  10/02/2024
+#  @description    :  PrefixWordExtractor is a PowerShell script that extracts words from a text file which start with predefined prefixes like 'KN', 'HS', 'CI', 'LN', and 'PR', and exports them into a CSV file named "output.csv". It validates the existence of the source text file, reads its content, filters out words based on specified prefixes, and saves the results in a CSV format for further analysis or processing.
 #===========================================================================
 
 $SOURCE_TXT_FILE_PATH = "./Exfile.txt"
